@@ -15,9 +15,17 @@
     padding-left: 15px;
 }
 
+.signature {
+    font-family: monospace;
+    size: 14px;
+    align-items: center;
+    padding-top: 50px;
+}
 
 .main-game {
     margin: auto;
     padding-left: 500px;
     padding-right: 250px;
+    justify-content: center;
 }
+
