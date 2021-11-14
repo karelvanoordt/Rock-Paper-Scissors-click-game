@@ -25,6 +25,8 @@ playScissors.addEventListener('click', game);
 //The main game function
 function game (){
 
+e.preventDefault();
+
     let userChoice = event.srcElement.id; // Here we capture the user's choice to compare with PC's later
 
 alert("PC chose " + pcChoice); // The PC's play is revealed
